@@ -2,7 +2,7 @@
 
 plugins {
     //  id ("org.gradle.signing")
-    id ("org.gradle.maven-publish")
+    //id ("org.gradle.maven-publish")
     id ("org.jetbrains.kotlin.jvm") version "1.6.21"
     //id ("org.sonarqube") version "3.3"
 }
