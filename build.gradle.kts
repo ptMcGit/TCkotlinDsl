@@ -26,10 +26,10 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.2")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.4.2")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.7.10")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
-    implementation("org.jetbrains.teamcity:configs-dsl-kotlin:2019.2")
+    implementation("org.jetbrains.teamcity:configs-dsl-kotlin:2021.1")
     implementation("org.jetbrains.teamcity:configs-dsl-kotlin-plugins:1.0-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-script-runtime:1.4.32")
 }
