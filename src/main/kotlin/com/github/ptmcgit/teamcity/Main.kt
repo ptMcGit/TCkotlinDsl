@@ -6,6 +6,8 @@ fun hello() {
     println("Hello World!")
 }
 
-project {
-    description = "For playing around with Kotlin DSL."
+fun doProject() {
+    project {
+        description = "For playing around with Kotlin DSL."
+    }
 }
