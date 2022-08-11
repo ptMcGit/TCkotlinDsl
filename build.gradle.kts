@@ -2,6 +2,7 @@
 
 plugins {
     //  id ("org.gradle.signing")
+    `maven-publish`
     //id ("org.gradle.maven-publish")
     id ("org.jetbrains.kotlin.jvm") version "1.6.21"
     //id ("org.sonarqube") version "3.3"
@@ -41,5 +42,10 @@ dependencies {
 java {
     withJavadocJar()
     withSourcesJar()
+}
+publishing {
+    publications.create<MavenPublication>("maven") {
+        from(components["java"])
+    }
 }
 
